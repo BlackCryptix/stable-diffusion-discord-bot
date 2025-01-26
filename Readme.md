@@ -1,6 +1,7 @@
-# Stable Diffusion Discord Bot
+# Stable Diffusion Discord Bot (C#)
 
 This Discord bot allows you to generate images inside a Discord server using **AUTOMATIC1111 Stable Diffusion WebUI**.
+The bot is written in C# and uses Discord.Net
 
 ---
 
