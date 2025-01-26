@@ -8,13 +8,28 @@ The bot is written in C# and uses Discord.Net
 ## How to Use
 To use the bot inside the server, type `/generate` into the chat. The bot is configured to work best with an **Illustrator base model**, but other models might require adjustments (e.g., sampling method or resolution) for optimal results.
 
+![plot](./images/command_prompt.png)
+
+During the generation the current progress will be shown inside the chanel by the command response
+
+![plot](./images/generation_progress_1.png)
+![plot](./images/generation_progress_2.png)
+
+Finally, the message will be replaced be the generated image. The name of the image consist of a random value and the used seed.
+
+![plot](./images/generated_image_discord.png)
+
 ### Command Details
+
 The `/generate` command can be used in any server chat where the bot has access. Below are the parameters available:
+
+![plot](./images/command_options.png)
 
 - **Prompt** (required): The prompt used to generate the image.
 - **Scale** (optional): If provided, applies high-resolution fix to the image with the specified scale.
 - **Seed** (optional): The seed used to generate the image.
 
+  
 ---
 
 ## Setup Instructions
