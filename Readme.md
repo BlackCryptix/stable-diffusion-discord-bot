@@ -15,7 +15,7 @@ During the generation the current progress will be shown inside the chanel by th
 ![plot](./images/generation_progress_1.png)
 ![plot](./images/generation_progress_2.png)
 
-Finally, the message will be replaced be the generated image. The name of the image consist of a random value and the used seed.
+Finally, the message will be replaced be the generated image. The name of the image consists of a random value and the used seed.
 
 ![plot](./images/generated_image_discord.png)
 
@@ -108,5 +108,9 @@ var requestBody = new
 
 ---
 
+# Deployment for Linux
+In order to deploy this bot on a linux system use (set self contained to true if you want to include dependencies):
 
-
+```bash
+dotnet publish -c Release -r linux-arm --self-contained=false
+```
