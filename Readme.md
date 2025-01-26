@@ -35,7 +35,8 @@ The `/generate` command can be used in any server chat where the bot has access.
 ## Setup Instructions
 
 ### Launching AUTOMATIC1111 Stable Diffusion API
-To launch the Stable Diffusion API, add the `--api` argument. If you want the API to run on `0.0.0.0` instead of localhost, also include the `--listen` argument.
+Install https://github.com/AUTOMATIC1111/stable-diffusion-webui
+To launch the Stable Diffusion API, add the `--api` argument. If you want the API to run on `0.0.0.0` instead of localhost to make it accessible within your local network, also include the `--listen` argument.
 
 #### For `webui-user.bat` (Windows):
 Add the following arguments:
