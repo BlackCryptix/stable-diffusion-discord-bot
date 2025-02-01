@@ -6,7 +6,7 @@ The bot is written in C# and uses Discord.Net
 ---
 
 ## How to Use
-To use the bot inside the server, type `/generate` into the chat. The bot is configured to work best with an **Illustrator base model**, but other models might require adjustments (e.g., sampling method or resolution) for optimal results.
+To use the bot inside the server, type `/generate` into the chat. The bot is configured to work best with an **Illustrious base model**, but other models might require adjustments (e.g., sampling method or resolution) for optimal results.
 
 ![plot](./images/command_prompt.png)
 
